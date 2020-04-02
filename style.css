@@ -67,5 +67,5 @@ a:hover {
 	background-color:darkgray;
 	max-height:0;
 	overflow:hidden;
-	-webkit-transition:0.4s all ease-in-out;
+	transition:0.4s all ease-in-out;
 }
