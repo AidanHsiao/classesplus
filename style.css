@@ -2,35 +2,68 @@
 body {
 	margin:0px;
 	font-family:"Raleway",sans-serif;
-	background-color:gray;
+	background-color:lightgray;
+	font-size:25px;
+}
+.title {
+	text-align:center;
+	font-size:50px;
 }
 .mainContent {
 	width:1300px;
 	padding:20px;
+	margin:0px auto;
 }
 .navBar {
-	height:60px;
+	height:80px;
 	background-image:linear-gradient(to right,purple,rebeccapurple);
 	margin:0px;
 	color:white;
 	font-weight:500;
 }
 .links {
-	height:60px;
+	height:80px;
 	margin:0px;
 }
 .links a {
 	display:inline-block;
 	padding:0px 30px;
-	padding-top:15px;
-	margin-right:-4px;
-	height:45px;
-	font-size:25px;
-}
-a {
-	-webkit-transition:0.5s all;
+	padding-top:25px;
+	margin-right:-7px;
+	height:55px;
+	font-size:30px;
+	transition:0.5s all;
 }
 a:hover {
 	background-color:white;
 	color:black;
+}
+.originalPack:hover {
+	background-color:aqua;
+}
+.patchNotes {
+	color:white;
+	border-radius:0px;
+	border:none;
+	width:100%;
+	height:80px;
+	background-image:linear-gradient(to left,rebeccapurple,purple);
+	text-align:left;
+	padding:20px;
+	padding-left:50px;
+	font-size:30px;
+	-webkit-transition:0.7s all ease-out;
+}
+.patchNotes div{
+	width:2%;
+	text-align:right;
+	float:right;
+	margin-right:50px;
+}
+.patchNotesContent {
+	padding:0px 20px;;
+	background-color:darkgray;
+	max-height:0;
+	overflow:hidden;
+	-webkit-transition:0.5s all;
 }
