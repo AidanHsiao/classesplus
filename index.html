@@ -6,21 +6,24 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<script src="script.js"></script>
+<script src="script.js"></script>
 <div class="navBar">
 <div style="float:left;font-size:40px;margin:15px 0px;margin-left:100px;">classes+</div>
 <div style="float:right;margin-right:100px;" class="links">
-	<a>Home</a>
-	<a>Documentation</a>
-	<a>Download</a>
-	<a class="originalPack" style="margin-left:1px;">Classes</a>
+	<a class="notLink">Home</a>
+	<a href="documentation.html">Documentation / Details</a>
+	<a href="download.html">Download</a>
+	<a class="originalPack">Classes</a>
 </div>
 </div>
 <div class="mainContent">
 	<p class="title">Classes+ Homepage</p>
-	<p>Welcome to the official classes+ website! Classes+ is an extension of my other datapack, classes, which add special classes that are exclusive to one person. Each class is tailored for a specific type of person, with each class having either one passive or and one active or two active abilities. Each class also comes with an "ultimate" move, which is a special move that is quite strong and has a long cooldown. To go to the original classes site, click the <strong style="color:mediumaquamarine">classes</strong> link at the top. Below are the previous patch notes of classes+.</p><br>
+	<p>Welcome to the official classes+ website! Classes+ is an extension of my other datapack, classes, which adds special classes that are exclusive to one person. Each class is tailored for a specific type of person, with each class having either one passive or and one active or two active abilities. Each class also comes with an "ultimate" move, which is a special move that is quite strong and has a long cooldown. To go to the original classes site, click the <strong style="color:mediumaquamarine">classes</strong> link at the top. Below are the previous patch notes of classes+.</p><br>
+	<button class="patchNotes" onclick="extend112()">Classes+ v1.1.2<div id="symbol112">+</div></button>
+	<div class="patchNotesContent" id="112"><strong>New optimizations!</strong><br><br>- When loading the datapack in a new world, scoreboard data is automatically loaded.<br><br>- Teams are also now automatically setup.<br><br>- To join a class, simply do <span class="command"> /function classesplus:general/getstarted</span> to receive a book that allows you to choose a class!</div><br>
+	
 	<button class="patchNotes" onclick="extend111()">Classes+ v1.1.1<div id="symbol111">+</div></button>
-	<div class="patchNotesContent" id="111">- Minor bug fixes to Raijin Shinobi class<br>- Homing arrows fix (would constantly summon more underground to compensate for lack of no gravity)</div><br>
+	<div class="patchNotesContent" id="111">- Minor bug fixes to Raijin Shinobi class<br><br>- Homing arrows fix (would constantly summon more underground to compensate for lack of no gravity)</div><br>
 	
 	<button class="patchNotes" onclick="extend110()">Classes+ v1.1.0<div id="symbol110">+</div></button>
 	<div class="patchNotesContent" id="110"><strong>New class: Raijin Shinobi class!</strong><br><br>- This class features two different themes/modes: Raijin mode, and Shadow mode. Raijin is the japanese god of thunder, and so by request of one of my friends, mixed it with a ninja-style class! When in Raijin mode, the weapon used is the Fang of the Thunder God (10 base damage, when hit enemies strikes all entities in 10 block radius), and when in Shadow mode, the weapon used is the Fang of the Midnight Shinobi (20 base damage). <br>- In Shadow mode, you get Speed X, and in Raijin mode, you get Speed V.<br>- ULTIMATE (only usable in Raijin mode): Fury of the Thunder God: summons a tornado that sucks in nearby mobs, then rains lightning in a 50 block radius! Being hit by the lightning will result in instant death. Lightning will target highest ground in that area (spreadplayer command).</div><br>

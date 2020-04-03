@@ -1,3 +1,4 @@
+var s112 = 0;
 var s111 = 0;
 var s110 = 0;
 var s104 = 0;
@@ -6,9 +7,23 @@ var s102 = 0;
 var s101 = 0;
 var s100 = 0;
 
+function extend112() {
+	if (s112 == 0) {
+	document.getElementById("112").style.maxHeight = "240px";
+	document.getElementById("112").style.padding = "20px";
+	s112++;
+	document.getElementById("symbol112").innerHTML = "-";
+	} else {
+	document.getElementById("112").style.maxHeight = "0px";
+	document.getElementById("112").style.padding = "0px 20px";
+	s112 = 0;
+	document.getElementById("symbol112").innerHTML = "+";
+	}
+}
+
 function extend111() {
 	if (s111 == 0) {
-	document.getElementById("111").style.maxHeight = "60px";
+	document.getElementById("111").style.maxHeight = "90px";
 	document.getElementById("111").style.padding = "20px";
 	s111++;
 	document.getElementById("symbol111").innerHTML = "-";
